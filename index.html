@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary Six Years</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Asset/party.png" type="image/x-icon">
+</head>
+<body>
+    
+<audio id="background-music" loop>
+    <source src="/Asset/lagu.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+    
+    <div class="container">
+        <!-- Section 1: Welcome Section -->
+        <div id="welcome-section" class="section active">
+            <h1>Happy Anniversary Six Years </h1>
+            <img src="Asset/fotodepan.jpg" alt="Couple Image" class="couple-image">
+            <br>
+            <button id="open-gift-btn" class="button">Klik di sini bii</button>
+        </div>
+
+        <!-- Section 2: Gift Section -->
+        <div id="gift-section" class="section hidden">
+            <h2>Aku ada kado nih buat kamu</h2>
+            <div id="gift-box">
+                <img src="https://feeldreams.github.io/kadoin.png"/>
+            </div>
+            <button id="view-card-btn" class="button">Coba Buka Dulu</button>
+        </div>
+
+        <!-- Section 3: Card Section -->
+        <div id="card-section" class="section hidden">
+            <div class="card">
+                <p>Happy 6th anniversary Sayanggg</p>
+                <p>Maafin aku masih belom bisa jadi yang terbaik dan sempurna buat hubungan kita, Ga kerasa udah selama itu kita pacaran... Sampe hari ini, detik ini sama kamu aku selalu ngerasa kaya hari pertama aku jatuh cinta sama kamu. makasih udah jadi sahabat, temen, pacar, dan rumah tempat aku pulang. Semoga hubungan kita langgeng terus sampe kita bisa jadi satu insan yang utuh. Happy 6th anniversary, sayang❤️❤️❤️.</p>
+            </div>
+            <button id="choose-gift-btn" class="button">Pencet sini kalo udh baca</button>
+        </div>
+
+        <!-- Section 4: Final Section -->
+        <div id="final-section" class="section hidden">
+            <p>Kamu mau kado ga?</p>
+            <button id="yes-btn" class="button">Mau Dong</button>
+            <button id="no-btn" class="button">Gamau</button>
+            <p id="thanks-message" class="hidden">Thank you for celebrating with us!</p>
+        </div>
+
+        <!-- WhatsApp Button -->
+        <a id="whatsapp-btn" class="hidden" href="https://wa.me/+6285893154380?text=Anniversery%20My%20Love!" target="_blank">
+            <button class="button whatsapp-button">Coba sini chat</button>
+        </a>
+    </div>
+
+    <!-- Carousel Section -->
+    <div class="carousel-container-horizontal">
+        <div class="carousel-horizontal">
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel1.jpg" alt="Couple Photo 1">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel2.jpg" alt="Couple Photo 2">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel3.jpg" alt="Couple Photo 3">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel4.jpg" alt="Couple Photo 4">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel5.jpg" alt="Couple Photo 5">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel6.jpg" alt="Couple Photo 6">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel7.jpg" alt="Couple Photo 7">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel8.jpg" alt="Couple Photo 8">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel9.jpg" alt="Couple Photo 9">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel10.jpg" alt="Couple Photo 10">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel11.jpg" alt="Couple Photo 11">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/carousel12.jpg" alt="Couple Photo 12">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto1.jpg" alt="Couple Photo 13">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto2.jpg" alt="Couple Photo 14">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto3.jpg" alt="Couple Photo 15">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto4.jpg" alt="Couple Photo 16">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto5.jpg" alt="Couple Photo 17">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto6.jpg" alt="Couple Photo 18">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto7.jpg" alt="Couple Photo 19">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto8.jpg" alt="Couple Photo 20">
+            </div>
+            <div class="carousel-slide-horizontal">
+                <img src="Asset/foto9.jpg" alt="Couple Photo 21">
+            </div>
+        </div>
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+        <!-- Navigation buttons -->
+        <button id="prev-btn" class="carousel-btn prev-btn">←</button>
+        <button id="next-btn" class="carousel-btn next-btn">→</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
